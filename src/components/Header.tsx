@@ -6,7 +6,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useStore, ViewType } from "../context/StoreContext";
 import { products, categories } from "../data/mockData";
-import logoImg from "../assets/images/almendra_logo_clear_1780680079584.png";
+import logoImg from "../assets/images/almendra_icon_clean_1780680835019.png";
 import { 
   MapPin, 
   ChevronDown, 
@@ -145,7 +145,7 @@ export default function Header() {
             <img 
               src={logoImg} 
               alt="Almendra Almacén Natural Logo" 
-              className="h-10 w-10 rounded-full object-cover shadow-sm bg-white border border-brand-cream"
+              className="h-11 w-11 rounded-full object-contain p-0.5 shadow-sm bg-white border border-brand-cream"
               referrerPolicy="no-referrer"
             />
             <div className="flex flex-col">

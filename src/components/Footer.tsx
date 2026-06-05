@@ -6,7 +6,7 @@
 import React from "react";
 import { useStore } from "../context/StoreContext";
 import { categories } from "../data/mockData";
-import logoImg from "../assets/images/almendra_logo_clear_1780680079584.png";
+import logoImg from "../assets/images/almendra_icon_clean_1780680835019.png";
 import { 
   Instagram, 
   Facebook, 
@@ -61,7 +61,7 @@ export default function Footer() {
               <img 
                 src={logoImg} 
                 alt="Almendra Almacén Natural Logo" 
-                className="h-10 w-10 rounded-full object-cover bg-white shadow-sm border border-neutral-600"
+                className="h-11 w-11 rounded-full object-contain p-0.5 bg-white shadow-sm border border-neutral-600"
                 referrerPolicy="no-referrer"
               />
               <div className="flex flex-col">
