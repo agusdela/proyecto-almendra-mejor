@@ -1,0 +1,6 @@
+{
+  "name": "Almacen Natural Premium",
+  "description": "Tienda online de productos naturales, saludables, orgánicos y gourmet inspirada en Almendra Almacen Natural.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
